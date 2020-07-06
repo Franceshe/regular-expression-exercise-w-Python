@@ -1,8 +1,10 @@
 # regular-expression-exercise-w-Python
 
-* \d can be used in place of any digit from 0 to 9. 
-
-Lesson 2: The Dot
+##  Using Regular Expressions in Python
+* Using raw strings, such as `r"\n\w"` which begins with special prefix(r)
+instead of regular python strings as `"\n\w"`
+* Testing for regular expression
+`matchObject = re.search(pattern, input_str, flags=0)`
 
 ## Lesson Notes:
 * abc…	   Letters
@@ -19,8 +21,8 @@ Lesson 2: The Dot
 * \W	       Any Non-alphanumeric character
 * {m}	       m Repetitions
 * {m,n}	   m to n Repetitions
-* *	       Zero or more repetitions
-* +	       One or more repetitions
+* `*`	       Zero or more repetitions
+* `+`	       One or more repetitions
 * ?	       Optional character
 * \s	       Any Whitespace
 * \S	       Any Non-whitespace character
